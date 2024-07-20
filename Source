@@ -1,0 +1,13 @@
+local LP = game.Players.LocalPlayer
+local LPC, char = LP.Character, LP.Character
+local LPH, hum = LPC.Humanoid or LPC:FindFirstChild("Humanoid"), LPC.Humanoid or LPC:FindFirstChild("Humanoid")
+local LPHR = LPH.RootPart or LPC.HumanoidRootPart
+
+local UIS, UserInputService = game:GetService("UserInputService"), game:GetService("UserInputService")
+local TS, TweenService = game:GetService("TweenService"), game:GetService("TweenService")
+local RS, RunService = game:GetService("RunService"), game:GetService("RunService")
+local HTTPS, HttpService = game:GetService("HttpService"), game:GetService("HttpService")
+local TPS, TeleportService = game:GetService("TeleportService"), game:GetService("TeleportService")
+
+local mouse = LP:GetMouse()
+local PLR = LP.Parent:GetPlayers()
